@@ -12,6 +12,10 @@ from lib.layer_utils.roi_data_layer import RoIDataLayer
 from lib.nets.vgg16 import vgg16
 from lib.utils.timer import Timer
 
+# maybe need
+#import win_unicode_console
+#win_unicode_console.enable()
+
 try:
   import cPickle as pickle
 except ImportError:
