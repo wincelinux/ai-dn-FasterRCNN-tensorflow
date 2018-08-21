@@ -132,8 +132,9 @@ def _sample_rois(all_rois, all_scores, gt_boxes, fg_rois_per_image, rois_per_ima
         bg_inds = npr.choice(bg_inds, size=int(rois_per_image), replace=to_replace)
         fg_rois_per_image = 0
     else:
-        import pdb
-        pdb.set_trace()
+        #import pdb
+        #pdb.set_trace()
+        print("pdb.set_trace")
 
     # The indices that we're selecting (both fg and bg)
     keep_inds = np.append(fg_inds, bg_inds)
