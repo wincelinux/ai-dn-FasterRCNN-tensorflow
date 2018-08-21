@@ -30,7 +30,7 @@ tf.app.flags.DEFINE_integer('batch_size', 256, "Network batch size during traini
 # modify max_iters from 40000 to 10000
 tf.app.flags.DEFINE_integer('max_iters', 40000, "Max iteration")
 # modify step_size from 30000 to 9000
-tf.app.flags.DEFINE_integer('step_size', 30000, "Step size for reducing the learning rate, currently only support one step")
+tf.app.flags.DEFINE_integer('step_size', 9000, "Step size for reducing the learning rate, currently only support one step")
 tf.app.flags.DEFINE_integer('display', 10, "Iteration intervals for showing the loss during training, on command line interface")
 
 tf.app.flags.DEFINE_string('initializer', "truncated", "Network initialization parameters")
